@@ -1,0 +1,13 @@
+/*=====Variables=====*/
+:root {
+  /*===Fonts===*/
+  --heading-font: "Barlow Condensed", sans-serif;
+  --body-font: "Barlow", sans-serif;
+
+  /*===Colors===*/
+  --main-color: #ff5c5c;
+  --title-color: #242942;
+  --text-one-color: #5b5f71;
+  --text-two-color: #a0a1ac;
+  --bg-color: #eef3f6;
+}

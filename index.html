@@ -1,39 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Project tracking intro component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
-  Features
-  Pricing
-  Login
-
-  New
-  Monograph Dashboard
-
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <script src="./src/index.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <figure class="header__logo">
+          <img src="./src/assets/images/logo.svg" alt="logo de la empresa" />
+        </figure>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li>PRODUCT</li>
+            <li>FEATURES</li>
+            <li>PRICING</li>
+            <li>.</li>
+            <li>LOGIN</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="main__image">
+          <img src="./src/assets/images/illustration-devices.svg" alt="" />
+        </section>
+        <section class="main__info">
+          <div class="main__info-subtitle">
+            <p>NEW</p>
+            <h2>MONOGRAPH DASHBOARD</h2>
+          </div>
+          <h1 class="main__info-title">POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+          <p class="main__info-text">
+            Project planning and time tracking for agile teams
+          </p>
+          <div class="main__info-callToAction">
+            <button>SCHEDULE A DEMO</button>
+            <p>TO SEE A PREVIEW</p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Your Name Here</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

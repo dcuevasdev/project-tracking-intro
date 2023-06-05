@@ -11,3 +11,19 @@
   --text-two-color: #a0a1ac;
   --bg-color: #eef3f6;
 }
+
+/*=====Globals=====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+.container {
+  width: 90%;
+  max-width: 99.2rem;
+  margin: 0 auto;
+}

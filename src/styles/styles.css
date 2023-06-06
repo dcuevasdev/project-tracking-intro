@@ -22,6 +22,16 @@ html {
   font-size: 62.5%;
   line-height: 1.5;
 }
+.general__background {
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  z-index: -1;
+  width: 50%;
+  height: 55rem;
+  border-bottom-left-radius: 8rem;
+  background-color: var(--bg-color);
+}
 .container {
   width: 90%;
   max-width: 99.2rem;
@@ -39,6 +49,7 @@ html {
   top: 8.8rem;
   left: 0;
   right: 0;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +59,7 @@ html {
   margin: 0 auto;
   border-radius: 0.2rem;
   background-color: white;
-  box-shadow: 0.1rem 0.1rem 5rem #e0e0e0;
+  box-shadow: 0.1rem 0.1rem 1rem var(--text-two-color);
 }
 .header__nav-list {
   width: 90%;
@@ -87,9 +98,15 @@ html {
 .hidden {
   display: none;
 }
+
+/*=====Main=====*/
 .main__image {
-  width: 100px;
+  height: 46rem;
+  margin-top: 4.8rem;
+  width: 100%;
 }
 .main__image img {
-  width: 100%;
+  position: absolute;
+  right: -35rem;
+  width: 72rem;
 }

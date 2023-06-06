@@ -27,3 +27,69 @@ html {
   max-width: 99.2rem;
   margin: 0 auto;
 }
+
+/*=====Header=====*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+.header__nav {
+  position: absolute;
+  top: 8.8rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22.4rem;
+  height: 16rem;
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  background-color: white;
+  box-shadow: 0.1rem 0.1rem 5rem #e0e0e0;
+}
+.header__nav-list {
+  width: 90%;
+  margin: 0 auto;
+  font-family: var(--heading-font);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--title-color);
+  list-style: none;
+}
+.header__nav-list:hover {
+  cursor: pointer;
+}
+.header__nav-list li {
+  display: block;
+  margin: 1.2rem auto;
+  letter-spacing: 0.1rem;
+}
+.header__nav-list li:nth-child(3) {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header__nav-list li:nth-child(4) {
+  display: none;
+}
+.header__nav-list li:nth-child(5) {
+  color: var(--text-two-color);
+}
+.burger-menu,
+.close-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.main__image {
+  width: 100px;
+}
+.main__image img {
+  width: 100%;
+}

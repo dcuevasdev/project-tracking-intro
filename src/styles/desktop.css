@@ -1,0 +1,43 @@
+/*=====Globals=====*/
+body {
+  height: 100vh;
+}
+.general__background {
+  right: 0;
+}
+/*=====Header=====*/
+.header {
+  align-items: center;
+}
+.burger-menu,
+.close-menu {
+  display: none;
+}
+.header__nav {
+  position: relative;
+  top: 0;
+  align-items: center;
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.header__nav-list li {
+  margin: 0;
+}
+.header__nav-list li:nth-child(3) {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.header__nav-list li:nth-child(4) {
+  display: block;
+  color: var(--text-two-color);
+}
